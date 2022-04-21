@@ -1,7 +1,7 @@
 import 'dart:ui';
 
 import 'package:flutter/material.dart';
-import 'package:hotel_booking_app/screens/page3.dart';
+import 'package:hotel_booking_ui/screens/page3.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({Key? key}) : super(key: key);
@@ -93,7 +93,7 @@ class _HomePageState extends State<HomePage> {
                 Navigator.push(
                   context,
                   MaterialPageRoute(
-                    builder: (context) => FilterPage(),
+                    builder: (context) =>const FilterPage(),
                   ),
                 );
               },

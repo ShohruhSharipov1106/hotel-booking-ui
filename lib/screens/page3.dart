@@ -1,7 +1,5 @@
-
-
 import 'package:flutter/material.dart';
-import 'package:hotel_booking_app/screens/check_rooms.dart';
+import 'package:hotel_booking_ui/screens/check_rooms.dart';
 
 class FilterPage extends StatefulWidget {
   const FilterPage({Key? key}) : super(key: key);
@@ -83,7 +81,7 @@ class _FilterPageState extends State<FilterPage> {
         ),
       );
 
-  Container _rangeSliderContainer() => Container(
+  SizedBox _rangeSliderContainer() => SizedBox(
         child: Column(
           children: [
             const SizedBox(height: 20.0),
